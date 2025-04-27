@@ -3,8 +3,8 @@ user = input('请输入姓名：')
 # print(f"hello,{user}")
 
 # 这是一个打招呼测试的业务
-def greeting(user):
-    print(f"hello,{user}")
+# def greeting(user):
+#     print(f"hello,{user}")
 
 
 def greetingBylevel(user):
@@ -14,5 +14,5 @@ def greetingBylevel(user):
         print(f'hello,{user}!')
 
 
-greeting(user)
+greetingBylevel(user)
 
