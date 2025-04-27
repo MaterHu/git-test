@@ -12,6 +12,6 @@ def greetingBylevel(user):
     if user == 'MaterHu':
         print(f'hello,{user} sama!')
     else:
-        print(f'hello,{user}!')
+        print(f'hello,dear {user}!')
 
 greetingBylevel(user)
